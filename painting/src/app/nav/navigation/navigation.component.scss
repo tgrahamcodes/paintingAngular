@@ -1,0 +1,61 @@
+.tabs{
+    width: 100%;
+    margin-top: 16px;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    height:100px;
+    left: 0;
+    bottom: 0;
+    z-index: 10000;
+}
+
+.page-content{
+    height: 100%;
+    width: 100%;
+  }
+
+.info-box{
+    right: 20px;
+    position: fixed;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.image-container{
+    width: 200px;
+    height: 120px;
+    margin-top: 35px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    
+    
+}
+
+.company-text{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.live-help{
+    right: 0;
+    position: fixed;
+}
+
+.whitespace{
+    white-space: normal;
+}

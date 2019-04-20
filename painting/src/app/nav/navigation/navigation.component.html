@@ -1,0 +1,31 @@
+<mat-toolbar class= "header" color="primary">
+  <mat-toolbar-row>    
+    <button mat-button class="company-text">Brien Graham Painting</button>
+
+    <button mat-button class="live-help"><i class="material-icons">live_help</i></button>
+  </mat-toolbar-row>
+</mat-toolbar>
+<mat-toolbar color="acent" class="whitespace">
+      <mat-tab-group dynamicHeight mat-align-tabs="center" class ="tabs">
+            <mat-tab label="Home"><div class="page-content"><app-home></app-home></div></mat-tab>
+            <mat-tab label="Services"> <app-services></app-services></mat-tab>
+            <mat-tab label="About Us"> <app-about></app-about> </mat-tab>
+            <mat-tab label="Contact Us">
+                <div class="page-content">
+                    <app-contact></app-contact> 
+                  </div>
+            </mat-tab>
+      </mat-tab-group>
+  </mat-toolbar>
+  <mat-toolbar class="footer" color="primary">
+      <mat-toolbar-row>   
+        <button mat-button class="image-container"><img src="assets/briengrahamlogo.jpg"></button>
+            <div class="info-box">
+              <p>Brien Graham Painting & Wallpapering<br>
+              21 Ryan Road , North Brookfield, MA 01535<br>
+              Phone: 508-867-9975 Fax: 508-867-9975 <br>
+              E-mail: briengrahampainting@Hotmail.com<br>
+              </p>    
+              </div>    
+      </mat-toolbar-row>
+  </mat-toolbar>
