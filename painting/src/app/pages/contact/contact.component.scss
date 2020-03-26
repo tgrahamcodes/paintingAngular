@@ -1,8 +1,35 @@
-.contact {
-    padding: 100px;
+.contact-card {
+    max-width: 700px;
+    width: 700px;
+    display: inline-block;
 }
 
-div {
+.title{
     text-align: center;
-    text-justify: inter-word;
+    font-size: 16px;
 }
+
+.textBlob{
+    text-align: justify;
+}
+  
+.test{
+    border: 1px ridge black;
+    background-color: gray;
+    width: 30em;
+    align-items: center;
+    padding: 8px 12px;
+    box-shadow: 8px 8px 5px #444;
+    background-image: linear-gradient(180deg, #fff, #ddd 40%, #ccc);
+}
+
+.footer{
+    border: 1px ridge black;
+    padding: 24px 36px;
+    width: 15em;
+}
+
+.container{
+    text-align: center;
+  }
+
