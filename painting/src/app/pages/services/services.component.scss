@@ -5,13 +5,41 @@
     display: inline-block;
 }
 
+h1{
+    text-align: center;
+    padding-top: 2em;
+}
+
+img mat-card-image{
+    padding-top: 2em;
+}
+
 .title{
     text-align: center;
     font-size: 16px;
 }
 
+.image-container{
+    width: 600px;
+    height: 400px;
+    padding-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+}
+
+.image-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+}
+
+mat-card-content{
+    text-align: justify;
+}
+
 .textBlob{
     text-align: justify;
+    padding-bottom: 4em;
 }
   
 .test{
